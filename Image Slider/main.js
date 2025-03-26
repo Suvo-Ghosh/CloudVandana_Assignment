@@ -9,7 +9,7 @@ const slider = document.getElementById('slider');
 images.forEach((imgSrc, index) => {
     const img = document.createElement('img');
     img.src = imgSrc;
-    img.classList.add(index === 0 ? 'active' : '');
+    img.classList.add(index === 0 ? 'active' : 'hidden');
     slider.appendChild(img);
 });
 
